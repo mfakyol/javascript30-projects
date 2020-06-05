@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+  font-family: sans-serif;
+}
+body {
+  background-image: url(/1-Drum-Kit/img/bg.jpg);
+  background-size: cover;
+  
+}
+
+.info{
+    margin-top: 2rem;
+ text-transform: uppercase;
+ color: white;
+ font-size: 3.5rem;
+ text-align: center;
+}
+
+.keys {
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.key {
+  transition: all 0.07;
+  margin: 1rem;
+  width: 10rem;
+  padding: 1rem 0.5rem;
+  font-size: 1.5rem;
+  display: inline-block;
+  color: white;
+  background: rgba(0, 0, 0, 0.4);
+  text-align: center;
+  border: black solid .4rem;
+  border-radius: .5rem;
+  text-shadow: 0 0 .5rem black;
+
+}
+
+.key:hover{
+    cursor: pointer;
+}
+
+.playing {
+  transform: scale(1.2);
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
+}
+.sound {
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #ffc600;
+}
