@@ -73,17 +73,20 @@
 
       // Array.prototype.filter()
       // 1. Filter the list of inventors for those who were born in the 1500's
-      const fifteen = inventors.filter(
+      console.log('16th century people were brought')
+      const sixteen = inventors.filter(
         (inventor) => inventor.year >= 1500 && inventor.year < 1600
       );
-      console.table(fifteen);
+
+      console.table(sixteen);
 
       // Array.prototype.map()
       // 2. Give us an array of the inventors first and last names
-      const fullName = inventors.map(
+      const fullNames = inventors.map(
         (inventor) => `${inventor.first} ${inventor.last}`
       );
-      console.table(fullName);
+      console.log('fullnames are brought')
+      console.table(fullNames);
 
       // Array.prototype.sort()
       // 3. Sort the inventors by birthdate, oldest to youngest
@@ -112,7 +115,8 @@
         const[bLast, bFirst] = nextOne.split(', ')
         return aLast => bLast ? -1: 1
       })
-
+      console.log('ordered by lastname')
+      console.log(orderedByAlhahetical)
 
       // 8. Reduce Exercise
       // Sum up the instances of each of these
@@ -141,7 +145,8 @@
         return obj
 
       },{})
-
+      console.log('an array object counted with reduce function')
+      console.log(trasportation)
     </script>
   </body>
 </html>
