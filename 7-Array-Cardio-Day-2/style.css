@@ -1,29 +1,27 @@
 .col {
-    width: 48%;
-    float: left;
-
+  width: 48%;
+  float: left;
 }
 
 .v-line {
-    margin-left: 1%;
-    margin-right: 1%;
-    float: left;
-    height: 1000px;
+  margin-left: 1%;
+  margin-right: 1%;
+  float: left;
+  height: 1000px;
 
-    border-left: 4px solid grey;
+  border-left: 4px solid grey;
 }
-body{
-    height: 1000px;
+body {
+  height: 1000px;
 }
 
 table {
-    width: 90%;
-    text-align: center;
-    border-collapse: collapse;
-    margin-left: 3%;
-    
+  width: 90%;
+  text-align: center;
+  border-collapse: collapse;
+  margin-left: 3%;
 }
-td,th{
-    border: 2px solid #f0f0f0;
-
+td,
+th {
+  border: 2px solid #f0f0f0;
 }
